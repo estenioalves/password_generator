@@ -1,6 +1,7 @@
 import random
 import string
 
+
 def password_generator(len_pass=8):
     ascii_options = string.ascii_letters
     numbers_options = string.digits
@@ -24,5 +25,5 @@ else:
     print("Entrada Inválida!")
     quit()
 
-response = password_generator(len_pass = choice_user)
+response = password_generator(len_pass=choice_user)
 print(f"A Senha gerada é:\n{response}")
